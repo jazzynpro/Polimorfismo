@@ -20,5 +20,8 @@ public class Rectangulo extends Figura{
 		return "figura [nombre=" + super.getNombre() + ", color=" + super.getColor() +  ", base=" + base + ", altura=" + altura + "]";
 	}
 	
+	public int calcularPerimetro() {
+		return 2 * base + 2 * altura;
+	}
 	
 }
