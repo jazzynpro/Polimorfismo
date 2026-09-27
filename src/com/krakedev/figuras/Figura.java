@@ -5,6 +5,13 @@ public class Figura {
 	private String nombre;
 	private String color;
 	
+	//constructor 
+	public Figura(String nombre, String color) {
+		super();
+		this.nombre = nombre;
+		this.color = color;
+	} 
+	
 	//Getters and setters
 	public String getNombre() {
 		return nombre;
@@ -23,7 +30,9 @@ public class Figura {
 	@Override
 	public String toString() {
 		return "figura [nombre=" + nombre + ", color=" + color + "]";
-	} 
+	}
+	
+	
 	
 	
 }
