@@ -32,6 +32,9 @@ public class Figura {
 		return "figura [nombre=" + nombre + ", color=" + color + "]";
 	}
 	
+	public int calcularPerimetro() {
+		return 0;
+	}
 	
 	
 	
