@@ -5,16 +5,19 @@ import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
 import com.krakedev.figuras.Rectangulo;
 import com.krakedev.figuras.Triangulo;
+import com.krakedev.figuras.TrianguloRectangulo;
 
 public class TestGraficar {
 
 	public static void main(String[] args) {
 		Graficador graficador = new Graficador();
 		
+		Figura figura = new TrianguloRectangulo("Triangulo Rectangulo" ,"azul");
 		Triangulo triangulo = new Triangulo("Triangulo", "amarillo");
 		Cuadrado cuadrado = new Cuadrado("Cuadrado", "rojo");
 		Rectangulo rectangulo = new Rectangulo("Rectangulo","naranja");
 		
+		graficador.graficar(figura);
 		graficador.graficar(triangulo);
 		graficador.graficar(cuadrado);
 		graficador.graficar(rectangulo);
