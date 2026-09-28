@@ -33,7 +33,7 @@ public class TrianguloRectangulo  extends Figura{
 	
 	@Override
 	
-	public int calcularArea() {
+	public double calcularArea() {
 		return (catetoA * catetoB)/2;
 	}
 	
