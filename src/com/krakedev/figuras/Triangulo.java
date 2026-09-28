@@ -41,5 +41,10 @@ public class Triangulo extends Figura{
 		return (base * altura)/2;
 	}
 	
+	@Override
+	public int calcularPerimetro() {
+		return 0;
+	}
+	
 	
 }
